@@ -26,6 +26,13 @@
   font-style: normal;
 }
 
+<<<<<<< HEAD
+=======
+a {
+  text-decoration: none;
+}
+
+>>>>>>> 1f67a1a9c74e23dde2db76de056393c54f6c778f
 body {
   font-size: 14px;
 }
@@ -48,6 +55,7 @@ body._lock {
 }
 
 ._container {
+<<<<<<< HEAD
   min-width: 1180px;
   margin: 0 auto;
   padding: 0 20px;
@@ -55,3 +63,106 @@ body._lock {
 @supports (-webkit-appearance:none){
 
 }
+=======
+  min-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background: url(../img/icons/header/bg_header.jpg) top no-repeat;
+}
+
+.top-header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-header__column {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 50%;
+  flex: 0 1 50%;
+}
+
+.top-header__column:nth-child(2) {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 190px;
+  flex: 0 0 190px;
+  text-align: center;
+  margin-top: 30px;
+  letter-spacing: 2px;
+}
+
+.top-header__logo {
+  font-family: play_Bold;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.menu__list li {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 33%;
+  flex: 0 1 33%;
+}
+
+.menu__link {
+  font-family: play_Bold;
+  line-height: 18px;
+  text-decoration: underline;
+  color: #ffffff;
+  height: 27px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 22px;
+}
+
+.contacts-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.contacts-header__column {
+  border-right: 1px solid #fff;
+}
+
+.contacts-header__column:last-child {
+  border: 0;
+}
+
+@media (min-width: 991.98px) {
+  .menu__link:hover {
+    background-color: #068292;
+    border-radius: 20px;
+  }
+}
+@supports (-webkit-appearance:none){
+.header{background:url(../img/icons/header/bg_header.webp) top no-repeat}
+}
+
+ @media (min-width: 991.98px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+>>>>>>> 1f67a1a9c74e23dde2db76de056393c54f6c778f
