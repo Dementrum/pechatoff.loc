@@ -26,13 +26,10 @@
   font-style: normal;
 }
 
-<<<<<<< HEAD
-=======
 a {
   text-decoration: none;
 }
 
->>>>>>> 1f67a1a9c74e23dde2db76de056393c54f6c778f
 body {
   font-size: 14px;
 }
@@ -55,15 +52,6 @@ body._lock {
 }
 
 ._container {
-<<<<<<< HEAD
-  min-width: 1180px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-@supports (-webkit-appearance:none){
-
-}
-=======
   min-width: 1140px;
   margin: 0 auto;
   padding: 0 20px;
@@ -165,4 +153,3 @@ body._lock {
 }
 
 }
->>>>>>> 1f67a1a9c74e23dde2db76de056393c54f6c778f
